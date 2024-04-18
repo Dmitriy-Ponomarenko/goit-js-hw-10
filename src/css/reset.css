@@ -1,4 +1,24 @@
 /* Reset styles */
+* {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+ol {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
 h1,
 h2,
 h3,
@@ -13,23 +33,33 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 a {
   color: currentColor;
   text-decoration: none;
 }
 
 button {
-  cursor: pointer;
+  font-family: inherit;
+  color: currentColor;
+  border: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+input,
+textarea {
+  font-family: inherit;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.home {
+  margin-bottom: 16px;
 }
