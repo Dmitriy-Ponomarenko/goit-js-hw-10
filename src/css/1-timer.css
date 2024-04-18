@@ -1,77 +1,77 @@
 #datetime-picker {
-    width: 280px;
-    height: 40px;
-    border-radius: 4px;
-    background: #fff;
-    border: 1px solid #808080;
-    padding: 8px 16px;
-  }
-  
-  #datetime-picker:hover,
-  #datetime-picker:focus {
-    border: 1px solid #000;
-  }
-  
-  #datetime-picker:active {
-    border: 1px solid #4e75ff;
-    color: #000;
-  }
-  
-  #datetime-picker:disabled {
-    background: #fafafa;
-    color: #808080;
-    cursor: not-allowed;
-  }
-  
-  button[data-start] {
-    padding: 8px 16px;
-    width: 75px;
-    border-radius: 8px;
-    background: #4e75ff;
-    color: #fff;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-  }
-  button[data-start]:hover,
-  button[data-start]:focus {
-    background: #6c8cff;
-  }
-  
-  button[data-start]:disabled {
-    background: #cfcfcf;
-    color: #989898;
-    cursor: not-allowed;
-  }
-  .timer {
-    margin-top: 32px;
-    display: flex;
-  }
-  
-  .field {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 24px;
-  }
-  .value {
-    color: #2e2f42;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.04em;
-  }
-  
-  .label {
-    color: #2e2f42;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5em;
-    text-transform: uppercase;
-  }
+  width: 280px;
+  height: 40px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+}
+
+#datetime-picker:hover,
+#datetime-picker:focus {
+  border: 1px solid #000;
+}
+
+#datetime-picker:active {
+  border: 1px solid #4e75ff;
+  color: #000;
+}
+
+#datetime-picker:disabled {
+  background: #fafafa;
+  color: #808080;
+  cursor: not-allowed;
+}
+
+button[data-start] {
+  padding: 8px 16px;
+  width: 75px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+button[data-start]:hover,
+button[data-start]:focus {
+  background: #6c8cff;
+}
+
+button[data-start]:disabled {
+  background: #cfcfcf;
+  color: #989898;
+  cursor: not-allowed;
+}
+.timer {
+  margin-top: 32px;
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+.value {
+  color: #2e2f42;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
+.label {
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
